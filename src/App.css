@@ -22,6 +22,16 @@
 .App-link {
   color: #61dafb;
 }
+.user-name {
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: black;
+  font-size: 8em;
+  top: 20%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
 
 @keyframes App-logo-spin {
   from {
