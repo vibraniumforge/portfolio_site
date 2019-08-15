@@ -2,33 +2,46 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom'
 
 
-var divStyle = {
-	width: '100%',
- 	height: '1000px',
- backgroundImage: `url('https://miro.medium.com/max/4800/1*8acs5y4LSiOW3woxp5m7CQ.png')`,
- backgroundPosition: 'center',
- backgroundRepeat: 'no-repeat',
- backgroundSize: 'cover',
-	};
-
 class Projects extends Component {
 
 	render() {
 
 		return(
-			<div id="home-image" style={ divStyle } >
-			<br />
-			<br />
-			<br />
-			<h1 className='centered'>Sofia Jonsson</h1>
-			<br />
-			<br />
-			 <p className="home-p-tag">Keep up with Me</p>
-			 <button position="center" class="ui inverted button" id="home-pg-button"><Link to="/">Back to About Me </Link></button>
-			<br />
-			<br />
+			<div >
+				<br />
+				<br />
+				<br />
+				<h1 className='page-header'>Projects</h1>
+				<div className='card'>
+					<div className='container'>
+						<img src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png" alt="Avatar"></img>
+						<h4 className="projects-header">Pow Tracker</h4>
+						<p className="projects-paragraph">React.js Front End, Ruby on Rails Back End</p>
+					</div>
+				</div>
 
-			<br />
+				<div className='card'>
+					<div className='container'>
+						<img src="https://github.com/sofiajonsson/thrones_tracker/raw/master/lib/art/got.png" alt="Avatar"></img>
+						<h4 className="projects-header">Thrones Tracker</h4>
+						<p className="projects-paragraph">Vanilla JavaScript Front End, Ruby on Rails Back End</p>
+					</div>
+				</div>
+
+				<div className='card'>
+					<div className='container'>
+						<img src="https://github.com/sofiajonsson/roam/raw/master/lib/art/roam_screenshot.png" alt="Avatar"></img>
+						<h4 className="projects-header">Roam</h4>
+						<p className="projects-paragraph">Ruby on Rails App</p>
+					</div>
+				</div>
+					<br />
+					<br />
+					 <p className="general-p-tag"> </p>
+					 <button position="center" class="ui inverted button" id="home-pg-button"><Link to="/about">Back to About Me </Link></button>
+					<br />
+					<br />
+					<br />
 			</div>
 
 

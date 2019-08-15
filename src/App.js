@@ -7,6 +7,8 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './containers/Home'
 import About from './containers/About'
 import Projects from './containers/Projects'
+import Header from './containers/Header'
+import Contact from './containers/Contact'
 
 class App extends Component {
   constructor(props){
@@ -16,25 +18,15 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-      <Switch>
-        < Route exact path='/' render={ () => <Home /> } />
-        < Route path='/about' render={ () => <About /> } />
-        < Route path='/projects' render={ () => <Projects /> } />
-      </Switch>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <Header />
+        <div className="Main Content">
+          <Switch>
+            < Route exact path='/' render={ () => <Home /> } />
+            < Route path='/about' render={ () => <About /> } />
+            < Route path='/projects' render={ () => <Projects /> } />
+            < Route path='/contact' render={ () => <Contact /> } />
+          </Switch>
+        </div>
       </div>
     );
   }
