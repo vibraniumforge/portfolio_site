@@ -11,10 +11,15 @@ class Projects extends Component {
 				<br />
 				<br />
 				<br />
-				<h1 className='page-header'>Projects</h1>
+				<h1 className=''>Projects</h1>
 				<div className='card'>
 					<div className='container'>
-						<img src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png" alt="Avatar"></img>
+						<img
+							src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png"
+							alt="Avatar"
+							style={{ height: '400px', width: '600px'}}
+							>
+							</img>
 						<h4 className="projects-header">Pow Tracker</h4>
 						<p className="projects-paragraph">React.js Front End, Ruby on Rails Back End</p>
 					</div>
@@ -22,7 +27,10 @@ class Projects extends Component {
 
 				<div className='card'>
 					<div className='container'>
-						<img src="https://github.com/sofiajonsson/thrones_tracker/raw/master/lib/art/got.png" alt="Avatar"></img>
+						<img
+							src="https://github.com/sofiajonsson/thrones_tracker/raw/master/lib/art/got.png"
+							alt="Avatar"
+							style={{ height: '400px', width: '600px'}}></img>
 						<h4 className="projects-header">Thrones Tracker</h4>
 						<p className="projects-paragraph">Vanilla JavaScript Front End, Ruby on Rails Back End</p>
 					</div>
@@ -30,7 +38,10 @@ class Projects extends Component {
 
 				<div className='card'>
 					<div className='container'>
-						<img src="https://github.com/sofiajonsson/roam/raw/master/lib/art/roam_screenshot.png" alt="Avatar"></img>
+						<img
+							src="https://github.com/sofiajonsson/roam/raw/master/lib/art/roam_screenshot.png" 
+							alt="Avatar"
+							style={{ height: '400px', width: '600px'}}></img>
 						<h4 className="projects-header">Roam</h4>
 						<p className="projects-paragraph">Ruby on Rails App</p>
 					</div>
