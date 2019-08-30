@@ -15,7 +15,7 @@ class Contact extends Component {
 					Call me beep me if ya wanna reach me
 			</p>
 			<div className="ui labeled icon menu" id="contact-icons" border-color="white">
-		 
+		 <img src="..src/components/moab.jpg" alt="image" />
 	 </div>
 			<br />
 			<br />

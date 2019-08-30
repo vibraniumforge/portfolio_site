@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom'
 
+
 // var divStyle = {
 // 	width: '100%',
 //  	height: '100%',
@@ -15,20 +16,21 @@ class Home extends Component {
 	render() {
 
 		return(
-			<div id="home-image">
-			<br />
-			<br />
-			<br />
-			<h1 className='user-name'> Sofia Jonsson</h1>
-			<br />
-			<br />
-			 <p className="home-p-tag">Front-end web developer</p>
-			 <a position="center" class="sm-nav-a" id="home-pg-button"><Link to="/projects">View My Work </Link></a>
-			<br />
-			<br />
-
-			<br />
+			<div class="row">
+			  <div class="column">
+					<br />
+					<br />
+					<br />
+					<h1 className='user-name'> Sofia Jonsson</h1>
+					<p className="home-p-tag">Front-end web developer</p>
+					<a class="sm-nav-a" id="home-pg-button"><Link to="/projects">View My Work </Link></a>
+				</div>
+			  <div class="column-2">
+					<img src={require('../components/moab2.png')} className="home-img"/>
+				</div>
 			</div>
+
+
 
 
 

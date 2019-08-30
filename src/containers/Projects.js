@@ -14,7 +14,7 @@ class Projects extends Component {
 				<h1 className="page-header">Projects</h1>
 				<div className='card'>
 					<div className='container'>
-						<a href="https://github.com/sofiajonsson/front_end_final" className="projects-header">Pow Tracker</a>
+						<a href="https://github.com/sofiajonsson/front_end_finals" className="projects-header">Pow Tracker</a>
 							<p className="projects-paragraph">React.js Front End, Ruby on Rails Back End</p>
 							<img
 								src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png"
