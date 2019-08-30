@@ -9,28 +9,29 @@ const Header = () => (
 	  	<div className="ui labeled icon menu" id="menu-header" border-color="white">
 	      <div className="navbar-icons" border-color="white">
 	        <Link to="/">
-	        <button className="nav-button">Home</button>
-	        
+	        <a className="nav-a">Home</a>
+
 
 	        </Link>
 	      </div>
 	      <div className="navbar-icons">
 	        <Link to="/about">
-	           <button className="nav-button">About</button>
+	           <a className="nav-a">About</a>
 
 
 	        </Link>
 	      </div>
 	      <div className="navbar-icons">
 	        <Link to="/projects">
-	      		<button className="nav-button">Projects</button>
+	      		<a className="nav-a">Projects</a>
 
 
 	        </Link>
 	      </div>
 	      <div className="navbar-icons">
 	        <Link to="/contact">
-	         <button className="nav-button">Contact</button>
+					
+	         <a className="nav-a">Contact</a>
 
 
 	        </Link>

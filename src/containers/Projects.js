@@ -14,7 +14,7 @@ class Projects extends Component {
 				<h1 className="page-header">Projects</h1>
 				<div className='card'>
 					<div className='container'>
-						<h4 className="projects-header">Pow Tracker</h4>
+						<a href="https://github.com/sofiajonsson/front_end_final" className="projects-header">Pow Tracker</a>
 							<p className="projects-paragraph">React.js Front End, Ruby on Rails Back End</p>
 							<img
 								src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png"
@@ -28,7 +28,7 @@ class Projects extends Component {
 
 				<div className='card'>
 					<div className='container'>
-						<h4 className="projects-header">Thrones Tracker</h4>
+						<a href="https://github.com/sofiajonsson/thrones_tracker" className="projects-header">Thrones Tracker</a>
 						<p className="projects-paragraph">Vanilla JavaScript Front End, Ruby on Rails Back End</p>
 							<img
 								src="https://github.com/sofiajonsson/thrones_tracker/raw/master/lib/art/got.png"
@@ -42,7 +42,7 @@ class Projects extends Component {
 
 				<div className='card'>
 					<div className='container'>
-						<h4 className="projects-header">Roam</h4>
+						<a href="https://github.com/sofiajonsson/roam" className="projects-header">Roam</a>
 							<p className="projects-paragraph">Ruby on Rails App</p>
 							<img
 								src="https://github.com/sofiajonsson/roam/raw/master/lib/art/roam_screenshot.png"
@@ -56,7 +56,7 @@ class Projects extends Component {
 					<br />
 					<br />
 					 <p className="general-p-tag"> </p>
-					 <button position="center" className="sm-nav-button" id="home-pg-button"><Link to="/about">Back to About Me </Link></button>
+					 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/about">Back to About Me </Link></a>
 					<br />
 					<br />
 					<br />
