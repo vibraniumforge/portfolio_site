@@ -30,7 +30,7 @@ const Header = () => (
 	      </div>
 	      <div className="navbar-icons">
 	        <Link to="/contact">
-					
+
 	         <a className="nav-a">Contact</a>
 
 

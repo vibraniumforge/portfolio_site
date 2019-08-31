@@ -13,9 +13,12 @@ class Contact extends Component {
 			<br />
 			 <p className="general-p-tag">
 					Call me beep me if ya wanna reach me
+					<br/>
+					<br/>
+					*Add Email | GitHub | blog | LinkedIn icons*
 			</p>
 			<div className="ui labeled icon menu" id="contact-icons" border-color="white">
-		 <img src="..src/components/moab.jpg" alt="image" />
+
 	 </div>
 			<br />
 			<br />
