@@ -56,7 +56,7 @@ class Projects extends Component {
 					<br />
 					<br />
 					 <p className="general-p-tag"> </p>
-					 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/about">Back to About Me </Link></a>
+					 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/about" style={{paddingLeft: 13, textDecoration: 'none'}}>Back to About Me </Link></a>
 					<br />
 					<br />
 					<br />

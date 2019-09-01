@@ -16,7 +16,7 @@ class About extends Component {
 			 <p className="general-p-tag">
 					Full stack web developer with a passion for travel and languages. With experience in Ruby on Rails, JavaScript, and React and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
 			</p>
-			 <button position="center" className="sm-nav-button" id="home-pg-button"><Link to="/projects">Check Out My Projects </Link></button>
+			 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>Check Out My Projects </Link></a>
 			<br />
 			<br />
 
