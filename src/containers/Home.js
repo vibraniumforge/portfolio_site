@@ -16,16 +16,16 @@ class Home extends Component {
 	render() {
 
 		return(
-			<div class="row">
-			  <div class="column">
+			<div className="wrapper">
+			  <div className="one">
 					<br />
 					<br />
 					<br />
 					<h1 className='user-name'> Sofia Jonsson</h1>
 					<p className="home-p-tag">Front-end web developer</p>
-					<a class="sm-nav-a" id="home-pg-button"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>View My Work </Link></a>
+					<a className="sm-nav-a" id="home-pg-button"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>View My Work </Link></a>
 				</div>
-			  <div class="column-2">
+			  <div className="column-2">
 					<img src={require('../components/moab2.png')} className="home-img"/>
 				</div>
 			</div>

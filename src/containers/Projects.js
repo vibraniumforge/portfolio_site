@@ -22,7 +22,15 @@ class Projects extends Component {
 								style={{ height: '400px', width: '600px'}}
 								>
 							</img>
+							<br/>
+							<br/>
+							<br/>
 
+						<h4>
+							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
+								View Live Site
+							</a>
+						</h4>
 					</div>
 				</div>
 
@@ -36,23 +44,66 @@ class Projects extends Component {
 								style={{ height: '400px', width: '600px'}}
 								>
 							</img>
+							<br/>
+							<br/>
+							<br/>
 
+						<h4>
+							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
+								View Live Site
+							</a>
+						</h4>
 					</div>
 				</div>
 
 				<div className='card'>
 					<div className='container'>
-						<a href="https://github.com/sofiajonsson/roam" className="projects-header">Roam</a>
+						<a href="https://roam-travel-app.herokuapp.com/" className="projects-header">
+							Roam
+						</a>
 							<p className="projects-paragraph">Ruby on Rails App</p>
+								<br/>
+								<br/>
+
 							<img
 								src="https://github.com/sofiajonsson/roam/raw/master/lib/art/roam_screenshot.png"
 								alt="Avatar"
 								style={{ height: '400px', width: '600px'}}
 								>
 							</img>
+								<br/>
+								<br/>
 
+							<h4>
+								<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
+									View Live Site
+								</a>
+							</h4>
 					</div>
 				</div>
+
+				<div className='card'>
+					<div className='container'>
+						<a href="https://github.com/sofiajonsson/front_end_finals" className="projects-header">Calendar App</a>
+							<p className="projects-paragraph">React.js Front End, Ruby on Rails Back End</p>
+							<img
+								src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png"
+								alt="Avatar"
+								style={{ height: '400px', width: '600px'}}
+								>
+							</img>
+							<br/>
+							<br/>
+							<br/>
+
+						<h4>
+							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
+								View Live Site
+							</a>
+						</h4>
+					</div>
+				</div>
+
 					<br />
 					<br />
 					 <p className="general-p-tag"> </p>
