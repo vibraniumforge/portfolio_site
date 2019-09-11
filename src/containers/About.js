@@ -22,22 +22,23 @@ class About extends Component {
 			<div>
 				<h1 className='page-header'>Contact me</h1>
 				<div className="contact-div-tag">
-					<Link to="/">
+					<a href="https://github.com/sofiajonsson">
 		        <img src={require('../components/github-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
 		        <br />
-	      	</Link>
-					<Link to="/">
+	      	</a>
+					< a href="mailto:jonssonsofia93@gmail.com">
 		        <img src={require('../components/gmail-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
 		        <br />
-	      	</Link>
-					<Link to="/">
+	      	</a>
+					<a href="https://dev.to/sofiajonsson">
 		        <img src={require('../components/dev-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
 		        <br />
-	      	</Link>
-					<Link to="/">
+
+	      	</a>
+					<a href="https://www.linkedin.com/in/sofia-jonsson11/">
 		        <img src={require('../components/linked-in-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
 		        <br />
-	      	</Link>
+	      	</a>
 					<br /><br />
 				</div>
 
