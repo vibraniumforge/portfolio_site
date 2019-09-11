@@ -8,7 +8,7 @@ import Home from './containers/Home'
 import About from './containers/About'
 import Projects from './containers/Projects'
 import Header from './containers/Header'
-import Contact from './containers/Contact'
+// import Contact from './containers/Contact'
 
 class App extends Component {
   constructor(props){
@@ -24,7 +24,7 @@ class App extends Component {
             < Route exact path='/' render={ () => <Home /> } />
             < Route path='/about' render={ () => <About /> } />
             < Route path='/projects' render={ () => <Projects /> } />
-            < Route path='/contact' render={ () => <Contact /> } />
+
           </Switch>
         </div>
       </div>

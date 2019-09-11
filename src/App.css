@@ -106,6 +106,14 @@
 
 }
 
+/* @media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .home-img {
+    background-image: url(src/components/moab2.png);
+  }
+} */
+
 .card{
   text-align: center;
   border: grey solid 1px;
@@ -168,6 +176,21 @@
   display: inline-flex;
 }
 
+.contact-div-tag{
+  display: inline-flex;
+  /* background-color: #282c34; */
+    /* min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(12px + 2vmin);
+    color: white; */
+}
+
+.home-icon{
+  margin-right: 2em;
+}
 
 .navbar-icons{
   margin-left: 60px;

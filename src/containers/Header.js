@@ -28,14 +28,7 @@ const Header = () => (
 
 	        </Link>
 	      </div>
-	      <div className="navbar-icons">
-	        <Link to="/contact" style={{paddingLeft: 13, textDecoration: 'none'}}>
-
-	         <a className="nav-a">Contact</a>
-
-
-	        </Link>
-	      </div>
+	  
 	    </div>
 	  </div>
 	</div>

@@ -14,12 +14,37 @@ class About extends Component {
 			<br />
 			<br />
 			 <p className="general-p-tag">
-					Full stack web developer with a passion for travel and languages. With experience in Ruby on Rails, JavaScript, and React and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
+					Full stack web developer with a passion for travel and languages. With experience in Ruby on Rails, JavaScript, React, and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
 			</p>
 			 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>Check Out My Projects </Link></a>
 			<br />
 			<br />
+			<div>
+				<h1 className='page-header'>Contact me</h1>
+				<div className="contact-div-tag">
+					<Link to="/">
+		        <img src={require('../components/github-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
+		        <br />
+	      	</Link>
+					<Link to="/">
+		        <img src={require('../components/gmail-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
+		        <br />
+	      	</Link>
+					<Link to="/">
+		        <img src={require('../components/dev-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
+		        <br />
+	      	</Link>
+					<Link to="/">
+		        <img src={require('../components/linked-in-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
+		        <br />
+	      	</Link>
+					<br /><br />
+				</div>
 
+
+				<div className="ui labeled icon menu" id="contact-icons" border-color="white">
+			 </div>
+			</div>
 			<br />
 			</div>
 
