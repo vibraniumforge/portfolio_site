@@ -10,7 +10,7 @@ class About extends Component {
 
 			<h1 className='page-header'>About me</h1>
 
-			<img src="https://avatars1.githubusercontent.com/u/36748960?s=460&v=4" className="prof-pic"></img>
+			<img src={require('../components/sofia-milo.jpeg')}  className="prof-pic"></img>
 			<br />
 			<br />
 			 <p className="general-p-tag">
