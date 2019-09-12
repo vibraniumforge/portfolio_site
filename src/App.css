@@ -106,23 +106,17 @@
 
 }
 
-/* @media
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
-  .home-img {
-    background-image: url(src/components/moab2.png);
-  }
-} */
+
 
 .card{
   text-align: center;
   border: grey solid 1px;
   padding: 1rem;
-  width: 40rem;
-  height: 45rem;
+  width: 30rem;
+  height: 35rem;
   display: inline-grid;
-  margin: 3rem 2rem;
-  /* box-shadow: 3px 4px lightblue */
+  margin: 1rem 1rem;
+
 }
 
 .page-header{
