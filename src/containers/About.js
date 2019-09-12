@@ -20,7 +20,7 @@ class About extends Component {
 			<br />
 			<br />
 			<div>
-				<h1 className='page-header'>Contact me</h1>
+		
 				<div className="contact-div-tag">
 					<a href="https://github.com/sofiajonsson">
 		        <img src={require('../components/github-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
