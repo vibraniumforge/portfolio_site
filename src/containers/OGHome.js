@@ -17,12 +17,15 @@ class Home extends Component {
 
 		return(
 			<div className="wrapper">
-			  <div className="home-card">
+			  <div className="column-1">
+					<br />
+					<br />
+					<br />
 					<h1 className='user-name'> Sofia Jonsson</h1>
 					<p className="home-p-tag">Front-end web developer</p>
-					<Link to="/projects" style={{paddingLeft: 14, textDecoration: 'none'}}>View My Work </Link>
+					<a className="sm-nav-a" id="home-pg-button"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>View My Work </Link></a>
 				</div>
-			  <div className="home-card">
+			  <div className="column-2">
 					<img src={require('../components/moab2.png')} className="home-img"/>
 				</div>
 			</div>

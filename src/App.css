@@ -25,19 +25,19 @@
 }
 .user-name {
   /* margin-top: 400px; */
-  margin: 400px;
+  /* margin: 400px; */
   color: black;
   font-family: serif;
   font-size: 8em;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 .home-p-tag{
   margin-top: -400px;
@@ -70,14 +70,15 @@
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-.one {
-  grid-column: 1 / 8;
-  grid-row: 1;
-}
+
 
 
 .column-1 {
   flex: 50%;
+  position: absolute;
+  /* overflow: hidden; */
+  grid-column: 1/8;
+  grid-row: 1;
 
 }
 .column-2 {
@@ -106,7 +107,18 @@
 
 }
 
-
+.home-card{
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 40rem;
+  height: 45rem;
+  display: inline-grid;
+  margin: 1rem 1rem;
+  padding: 60px;
+  position: relative;
+  border: none;
+}
 
 .card{
   text-align: center;
@@ -116,7 +128,8 @@
   height: 45rem;
   display: inline-grid;
   margin: 1rem 1rem;
-
+  padding: 60px;
+  position: relative;
 }
 
 .page-header{
