@@ -27,8 +27,8 @@ class Projects extends Component {
 							<br/>
 
 						<h4>
-							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
-								View Live Site
+							<a href='https://www.youtube.com/watch?v=ZUXU7ZWpqD4' className='projects-link'>
+								View Demo
 							</a>
 						</h4>
 					</div>
@@ -49,8 +49,8 @@ class Projects extends Component {
 							<br/>
 
 						<h4>
-							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
-								View Live Site
+							<a href='https://www.youtube.com/watch?v=Rjdswq375Ms' className='projects-link'>
+								View Demo
 							</a>
 						</h4>
 					</div>
@@ -84,10 +84,10 @@ class Projects extends Component {
 
 				<div className='card'>
 					<div className='container'>
-						<a href="https://github.com/sofiajonsson/front_end_finals" className="projects-header">Calendar App</a>
+						<a href="https://github.com/sofiajonsson/front_end_finals" className="projects-header">Monthly Lineup Calendar App</a>
 							<p className="projects-paragraph">React.js Front End, Ruby on Rails Back End</p>
 							<img
-								src="https://github.com/sofiajonsson/front_end_final/raw/master/pow_tracker_front_end.png"
+								src="https://github.com/sofiajonsson/back-end-calendar-app/raw/master/lib/art/calendar_pic.png"
 								alt="Avatar"
 								style={{ height: '400px', width: '600px'}}
 								>
@@ -98,7 +98,7 @@ class Projects extends Component {
 
 						<h4>
 							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
-								View Live Site
+								View GitHub
 							</a>
 						</h4>
 					</div>
