@@ -27,7 +27,7 @@
   /* margin-top: 400px; */
   /* margin: 400px; */
   color: black;
-  font-family: serif;
+  font-family: "Arial", Arial, sans-serif;;
   font-size: 7.5em;
   top: 50%;
   left: 50%;
@@ -45,7 +45,7 @@
   font-size: 2em;
   /* margin-left: 300px;
   margin-right: 300px; */
-  font-family: serif;
+  font-family: "Arial", Arial, sans-serif;;
   /* text-shadow: 2px 2px 4px black; */
   /* top: 50%; */
   left: 50%;
@@ -135,7 +135,7 @@
 .page-header{
   font-size: 3em;
   color: black;
-  font-family: serif;
+  font-family: "Arial", Arial, sans-serif;;
   /* text-shadow: 2px 4px 6px black; */
 }
 .card {
@@ -173,8 +173,8 @@
 .general-p-tag{
   position: centered;
   color: black;
-  font-size: 1.5giem;
-  font-family: serif;
+  font-size: 1.5em;
+  font-family: "Arial", Arial, sans-serif;;
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -210,6 +210,7 @@
   color: black;
   font-size: 50px;
   text-decoration: none;
+  font-family: "Arial", Arial, sans-serif;;
 }
 
 
