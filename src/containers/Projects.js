@@ -12,6 +12,7 @@ class Projects extends Component {
 				<br />
 				<br />
 				<h1 className="page-header">Projects</h1>
+				<h4> Note that Live Site is hosted on a free platform and takes a while to load</h4>
 				<div className='card'>
 					<div className='container'>
 						<a href="https://github.com/sofiajonsson/front_end_finals" className="projects-header">Pow Tracker</a>
@@ -97,7 +98,7 @@ class Projects extends Component {
 							<br/>
 
 						<h4>
-							<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
+							<a href='https://github.com/sofiajonsson/front-end-calendar-app' className='projects-link'>
 								View GitHub
 							</a>
 						</h4>
