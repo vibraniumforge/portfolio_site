@@ -16,18 +16,26 @@ class App extends Component {
     this.state={  }
   }
   render(){
-    return (
-      <div className="App">
-      <Header />
-        <div className="Main Content">
-          <Switch>
-            < Route exact path='/' render={ () => <Home /> } />
-            < Route path='/about' render={ () => <About /> } />
-            < Route path='/projects' render={ () => <Projects /> } />
+    const data = [
+      { firstName: "John", lastName: "Smath" },
+      { firstName: "Paul", lastName: "Smeth" },
+      { firstName: "Cody", lastName: "Smith" },
+      { firstName: "Jordan", lastName: "Smoth" },
+      { firstName: "Jim", lastName: "Smuth" },
+    ]
+        return (
+        <div className="App">
+        
+        <Header />
+          <div className="Main Content">
+            <Switch>
+              < Route exact path='/' render={ () => <Home /> } />
+              < Route path='/about' render={ () => <About /> } />
+              < Route path='/projects' render={ () => <Projects /> } />
 
-          </Switch>
+            </Switch>
+          </div>
         </div>
-      </div>
     );
   }
 }

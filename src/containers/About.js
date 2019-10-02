@@ -14,7 +14,9 @@ class About extends Component {
 			<br />
 			<br />
 			 <p className="general-p-tag">
-					Full stack web developer with a passion for travel and languages. With experience in Ruby on Rails, JavaScript, React, and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
+					I'm a Full stack web developer with a passion for travel and languages.
+					<br/> <br/>
+					 With experience in Ruby on Rails, JavaScript, React, and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
 					<br/> <br/>
 					In my free time I like to get outdoors. Depending on what time of the year it is those activities will include skiing, hiking, surfing, etc. and I love to bring my dog Milo with me!
 					<br/> <br/>
@@ -43,12 +45,13 @@ class About extends Component {
 		        <img src={require('../components/linked-in-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
 		        <br />
 	      	</a>
-					<br /><br />
+					<br />
+					<Link to="./components/SJ_resume">
+						<img src={require('../components/resume.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>
+						<br />
+					</Link>
 				</div>
 
-
-				<div className="ui labeled icon menu" id="contact-icons" border-color="white">
-			 </div>
 			</div>
 			<br />
 			</div>
