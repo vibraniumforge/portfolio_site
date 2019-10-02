@@ -8,19 +8,23 @@ class About extends Component {
 		return(
 			<div>
 
-			<h1 className='page-header'>About me</h1>
+			<br/>
 
 			<img src={require('../components/sofia-milo.jpeg')}  className="prof-pic"></img>
 			<br />
 			<br />
 			 <p className="general-p-tag">
 					Full stack web developer with a passion for travel and languages. With experience in Ruby on Rails, JavaScript, React, and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
+					<br/> <br/>
+					In my free time I like to get outdoors. Depending on what time of the year it is those activities will include skiing, hiking, surfing, etc. and I love to bring my dog Milo with me!
+					<br/> <br/>
+					I like to do at least one thing a day to get me out of my comfort zone.
 			</p>
 			 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>Check Out My Projects </Link></a>
 			<br />
 			<br />
 			<div>
-		
+
 				<div className="contact-div-tag">
 					<a href="https://github.com/sofiajonsson">
 		        <img src={require('../components/github-icon.png')} className="home-icon" alt="home-icon" style={{width: 50, height: 50}}></img>

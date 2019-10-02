@@ -11,7 +11,7 @@ class Projects extends Component {
 				<br />
 				<br />
 				<br />
-				<h1 className="page-header">Projects</h1>
+				
 				<h4> * Note that "Live Site" option  is hosted on a free platform and takes a while to load *</h4>
 				<div className='card'>
 					<div className='container'>
