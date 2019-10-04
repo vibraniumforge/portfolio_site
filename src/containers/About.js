@@ -18,9 +18,9 @@ class About extends Component {
 					<br/> <br/>
 					 With experience in Ruby on Rails, JavaScript, React, and a background in business and hospitality, I discovered my passion for code while searching for something to keep my mind stimulated after University. As a hospitality graduate, I have developed a strong skill set pertaining to organization, communication, and thriving under pressure. I enjoy learning new things in a fast paced environment and wish to move forward on this continuous learning path.
 					<br/> <br/>
-					In my free time I like to get outdoors. Depending on what time of the year it is those activities will include skiing, hiking, surfing, etc. and I love to bring my dog Milo with me!
+					When I can get away from the screen, I am guaranteed to be outside and "getting after it". Depending on what time of the year it is, those activities will include skiing, hiking, surfing, etc. and I love to bring my dog Milo with me!
 					<br/> <br/>
-					I like to do at least one thing a day to get me out of my comfort zone.
+					I try to do at least one thing a day to get me out of my comfort zone.
 			</p>
 			 <a position="center" className="sm-nav-a" id="home-pg-a"><Link to="/projects" style={{paddingLeft: 13, textDecoration: 'none'}}>Check Out My Projects </Link></a>
 			<br />

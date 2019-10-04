@@ -11,7 +11,7 @@ class Projects extends Component {
 				<br />
 				<br />
 				<br />
-				
+
 				<h4> * Note that "Live Site" option  is hosted on a free platform and takes a while to load *</h4>
 				<div className='card'>
 					<div className='container'>
@@ -77,7 +77,7 @@ class Projects extends Component {
 
 							<h4>
 								<a href='https://roam-travel-app.herokuapp.com/' className='projects-link'>
-									View Live Site
+									View Live Site*
 								</a>
 							</h4>
 					</div>
