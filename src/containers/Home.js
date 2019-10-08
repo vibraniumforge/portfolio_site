@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom'
-
+import { Link } from "react-router-dom";
 
 // var divStyle = {
 // 	width: '100%',
@@ -18,31 +17,31 @@ import { Link } from 'react-router-dom'
 //  backgroundSize: 'cover',
 // 	};
 class Home extends Component {
-
-	render() {
-
-		return(
-			<div className="wrapper">
-			  <div className="home-card">
-					<h1 className='user-name'> Sofia Jonsson</h1>
-					<h1 className="home-p-tag">Front-end web developer</h1>
-					<span>
-						<Link to="/about" style={{paddingLeft: 14, textDecoration: 'none'}}>About Me </Link>
-					</span>
-				</div>
-			  <div className="home-card">
-					<img src={require('../components/moab2.png')} className="home-img"/>
-				</div>
-			</div>
-
-
-
-
-
-		)
-	}
+  render() {
+    return (
+      <div className="wrapper">
+        <div className="home-card">
+          <h1 className="user-name"> Sofia Jonsson</h1>
+          <h1 className="home-p-tag">Front-end web developer</h1>
+          <span>
+            <Link
+              to="/about"
+              style={{ paddingLeft: 14, textDecoration: "none" }}
+            >
+              About Me{" "}
+            </Link>
+          </span>
+        </div>
+        <div className="home-card">
+          <img
+            src={require("../components/moab2.png")}
+            alt="Moab"
+            className="home-img"
+          />
+        </div>
+      </div>
+    );
+  }
 }
 
-
-
-export default Home
+export default Home;

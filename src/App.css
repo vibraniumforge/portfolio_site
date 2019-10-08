@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
-html, body, #root, .App {
+html,
+body,
+#root,
+.App {
   width: 100%;
   height: 100%;
 }
@@ -9,10 +12,8 @@ html, body, #root, .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.main-content {
+  height: 100%;
 }
 
 .App-header {
@@ -34,7 +35,7 @@ html, body, #root, .App {
   /* margin-top: 400px; */
   /* margin: 400px; */
   color: black;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 7.5em;
   top: 50%;
   left: 50%;
@@ -46,13 +47,13 @@ html, body, #root, .App {
 
   transform: translate(-50%, -50%); */
 }
-.home-p-tag{
+.home-p-tag {
   /* margin-top: -400px; */
   color: black;
   font-size: 2em;
   /* margin-left: 300px;
   margin-right: 300px; */
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   /* text-shadow: 2px 2px 4px black; */
   /* top: 50%; */
   left: 50%;
@@ -63,13 +64,12 @@ html, body, #root, .App {
   transform: translate(-50%, -50%); */
 }
 
-.sm-nav-a{
+.sm-nav-a {
   color: black;
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   position: relative;
   text-decoration: none;
-
 }
 
 .wrapper {
@@ -79,16 +79,14 @@ html, body, #root, .App {
   grid-auto-rows: minmax(100px, auto);
 }
 
-
-
 .column-1 {
   flex: 50%;
   position: absolute;
   /* overflow: hidden; */
   grid-column: 1/8;
   grid-row: 1;
-
 }
+
 .column-2 {
   flex: 50%;
   overflow: hidden;
@@ -112,10 +110,9 @@ html, body, #root, .App {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
-
 }
 
-.home-card{
+.home-card {
   text-align: center;
   border: grey solid 1px;
   padding: 1rem;
@@ -128,7 +125,7 @@ html, body, #root, .App {
   border: none;
 }
 
-.card{
+.card {
   text-align: center;
   border: grey solid 1px;
   padding: 1rem;
@@ -140,37 +137,40 @@ html, body, #root, .App {
   position: relative;
 }
 
-.page-header{
+.page-header {
   font-size: 3em;
   color: black;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   /* text-shadow: 2px 4px 6px black; */
 }
+
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
-.projects-paragraph{
+
+.projects-paragraph {
   font-size: 1.5em;
 }
 
-.projects-header{
+.projects-header {
   font-size: 3em;
   text-decoration: none;
-  style: bold;
+  font-weight: bold;
   color: black;
 }
-.projects-link{
+
+.projects-link {
   font-size: 1.5em;
   text-decoration: none;
-  style: bold;
+  font-weight: bold;
   color: black;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Add some padding inside the card container */
@@ -178,11 +178,11 @@ html, body, #root, .App {
   padding: 2px 16px;
 }
 
-.general-p-tag{
+.general-p-tag {
   position: centered;
   color: black;
   font-size: 1.5em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -191,10 +191,10 @@ html, body, #root, .App {
   display: inline-flex;
 }
 
-.contact-div-tag{
+.contact-div-tag {
   display: inline-flex;
   /* background-color: #282c34; */
-    /* min-height: 100vh;
+  /* min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,39 +203,44 @@ html, body, #root, .App {
     color: white; */
 }
 
-.home-icon{
+.home-icon {
   margin-right: 2em;
 }
 
-.navbar-icons{
+.navbar-icons {
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 20px;
   font-size: 2em;
 }
 
-.nav-a{
+.nav-a {
   color: black;
   font-size: 50px;
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
-
-
-.prof-pic{
+.prof-pic {
   border-radius: 20%;
   width: 20%;
   height: 20%;
 }
-#contact-icons{
+
+#contact-icons {
   display: inline-flex;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
