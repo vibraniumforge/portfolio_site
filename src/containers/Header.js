@@ -13,12 +13,12 @@ const Header = () => (
       >
         <div className="navbar-icons" border-color="white">
           <Link to="/" style={{ paddingLeft: 13, textDecoration: "none" }}>
-            <a className="nav-a">Home</a>
+            Home
           </Link>
         </div>
         <div className="navbar-icons">
           <Link to="/about" style={{ paddingLeft: 13, textDecoration: "none" }}>
-            <a className="nav-a">About</a>
+            About
           </Link>
         </div>
         <div className="navbar-icons">
@@ -26,7 +26,7 @@ const Header = () => (
             to="/projects"
             style={{ paddingLeft: 13, textDecoration: "none" }}
           >
-            <a className="nav-a">Projects</a>
+            Projects
           </Link>
         </div>
       </div>

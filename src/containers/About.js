@@ -33,14 +33,14 @@ class About extends Component {
           <br /> <br />I try to do at least one thing a day to get me out of my
           comfort zone.
         </p>
-        <a position="center" className="sm-nav-a" id="home-pg-a">
-          <Link
-            to="/projects"
-            style={{ paddingLeft: 13, textDecoration: "none" }}
-          >
-            Check Out My Projects{" "}
-          </Link>
-        </a>
+
+        <Link
+          to="/projects"
+          style={{ paddingLeft: 13, textDecoration: "none" }}
+        >
+          Check Out My Projects{" "}
+        </Link>
+
         <br />
         <br />
         <div>

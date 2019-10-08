@@ -16,6 +16,10 @@ body,
   height: 100%;
 }
 
+#viewContainer {
+  overflow: auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -179,7 +183,7 @@ body,
 }
 
 .general-p-tag {
-  position: centered;
+  position: center;
   color: black;
   font-size: 1.5em;
   font-family: "Quicksand", sans-serif;
